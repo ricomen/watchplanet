@@ -1,0 +1,58 @@
+.btn
+{
+    font-size: 18px;
+    line-height: 24px;
+
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    padding-top: 5px;
+    padding-right: 32px;
+    padding-bottom: 5px;
+    padding-left: 32px;
+
+    transition: .2s;
+    vertical-align: middle;
+    text-decoration: none;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #8db24c;
+    &--cart {
+        box-sizing: border-box;
+        width: 155px;
+        padding-right: 37px;
+        padding-left: 40px;
+
+        background: linear-gradient(#7bb05a 50%, #58972e, #58972e 50%,#7bb05a );
+        &:hover
+        {
+            background: linear-gradient(darken(#7bb05a, 10%) 50%, darken(#58972e, 10%), darken(#58972e, 10%) 50%, darken(#7bb05a, 10%));
+        }
+        &::after
+        {
+            position: absolute;
+            top: 4px;
+            right: 10px;
+
+            width: 27px;
+            height: 25px;
+
+            content: '';
+
+            background-image: url("../img/sprite.png");
+            background-position: 0 0;
+        }
+    }
+    &--toCart {
+        &:hover {
+            cursor: pointer;
+            background-color: darken(#8db24c, 10%);
+            color: yellow;
+        }
+    }
+}
