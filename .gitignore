@@ -1,8 +1,5 @@
-# Windows image file caches
 Thumbs.db
 ehthumbs.db
-
-# Folder config file
 Desktop.ini
 
 # Recycle Bin used on file shares
@@ -49,5 +46,8 @@ Temporary Items
 # Node.js
 node_modules
 npm-debug.log
-build
 tmp
+src
+.bat
+.js
+.csscomb.json
