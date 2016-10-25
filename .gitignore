@@ -48,6 +48,6 @@ node_modules
 npm-debug.log
 tmp
 src
-.bat
-.js
-.csscomb.json
+*.bat
+*.js
+*.csscomb.json
